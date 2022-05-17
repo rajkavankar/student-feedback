@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <!-- FONT AWSOME ICONS -->
+    <script
+      src="https://kit.fontawesome.com/b6ac4abc21.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- MATERIAL CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- CUSTOM CSS  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- LOGIN FORM START  -->
+    <section class="login-form">
+      <div class="row center-align">
+        <div class="col s12">
+          <div class="card">
+            <div class="card-content">
+              <form>
+                <h5>Login form</h5>
+                <!-- EMAIL FIELD  -->
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="email" type="email" class="validate" />
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+                <!-- PASSWORD FIELD  -->
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="password" type="password" class="validate" />
+                    <label for="password">Password</label>
+                  </div>
+                </div>
+                <!-- REMEMBER ME  -->
+                <p>
+                  <label>
+                    <input
+                      type="checkbox"
+                      class="filled-in"
+                      checked="checked"
+                    />
+                    <span>Remember me</span>
+                  </label>
+
+                  <a href="#">Forgot password</a>
+                </p>
+
+                <!-- SUBMIT BUTTON  -->
+                <button
+                  type="submit"
+                  class="waves-effect waves-light btn blue darken-2"
+                >
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- LOGIN FORM END  -->
+  </body>
+  <!-- JQUERY -->
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
+  <!-- MATERIALIZE JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- CUSTOM JS  -->
+  <script src="js/script.js"></script>
+</html>
